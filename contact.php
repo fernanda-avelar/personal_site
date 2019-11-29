@@ -1,7 +1,7 @@
 <?php 
 	$errors = '';
 	$limit_size=10000000;
-	$myemail = 'nandinha_2008ca@hotmail.com'; /*Replace with your email*/
+	$myemail = 'fernandacarneiro@gec.inatel.br'; /*Replace with your email*/
 	if(empty($_POST['name'])  ||
 	   empty($_POST['email']) ||
 	   empty($_POST['message']))
