@@ -68,7 +68,7 @@ h6{
 	color: #222;
 }
 img{
-	max-width: 100%;
+	max-width: 350px;
 	height: auto;
 }
 ul{
@@ -341,12 +341,12 @@ a:hover{
      [ 04 Start Banner ]
 -----------------------------------------------------------------*/
 .main_banner{
-	height: 700px;
+	height: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .banner_bg{
-	background-image: url(../images/banner.jpg);
+	/* background-image: url(../images/banner.jpg); */
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -367,7 +367,8 @@ a:hover{
 	top: 0;
 }
 .banner_content{
-	margin-top: 250px;
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 .banner_content strong {
     color: #1461ff;
