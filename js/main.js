@@ -34,30 +34,6 @@
 			});
 		/* START MOBILE-MENU  */
 
-
-		/* START ISOTOP JS */
-		// var $grid = $('.dev_content_area').isotope({
-		// 	// options
-		//   });
-		//   // filter items on button click
-		//   $('.dev_filter').on( 'click', 'li', function() {
-		// 	var filterValue = $(this).attr('data-filter');
-		// 	$grid.isotope({ filter: filterValue });
-		//   });
-		//   // filter items on button click
-		//   $('.dev_filter').on( 'click', 'li', function() {
-		// 	  $(this).addClass('active').siblings().removeClass('active')
-		//   });
-	  /* END ISOTOP JS */
-		
-		/* START LIGHTBOX */
-		
-			// lightbox.option({
-			//   'resizeDuration': 200,
-			//   'wrapAround': true
-			// });
-		
-		/* END LIGHTBOX JS */
 		
 		/* START COUNDOWN JS */
 			$('#counter_area').on('inview', function(event, visible, visiblePartX, visiblePartY) {
@@ -78,6 +54,7 @@
 		/* END COUNDOWN JS */
 		
 	});	
+	
 	
 		/*PRELOADER JS*/
 			$(window).on('load', function() {  
