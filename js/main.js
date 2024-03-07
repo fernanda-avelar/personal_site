@@ -36,26 +36,26 @@
 
 
 		/* START ISOTOP JS */
-		var $grid = $('.dev_content_area').isotope({
-			// options
-		  });
-		  // filter items on button click
-		  $('.dev_filter').on( 'click', 'li', function() {
-			var filterValue = $(this).attr('data-filter');
-			$grid.isotope({ filter: filterValue });
-		  });
-		  // filter items on button click
-		  $('.dev_filter').on( 'click', 'li', function() {
-			  $(this).addClass('active').siblings().removeClass('active')
-		  });
+		// var $grid = $('.dev_content_area').isotope({
+		// 	// options
+		//   });
+		//   // filter items on button click
+		//   $('.dev_filter').on( 'click', 'li', function() {
+		// 	var filterValue = $(this).attr('data-filter');
+		// 	$grid.isotope({ filter: filterValue });
+		//   });
+		//   // filter items on button click
+		//   $('.dev_filter').on( 'click', 'li', function() {
+		// 	  $(this).addClass('active').siblings().removeClass('active')
+		//   });
 	  /* END ISOTOP JS */
 		
 		/* START LIGHTBOX */
 		
-			lightbox.option({
-			  'resizeDuration': 200,
-			  'wrapAround': true
-			});
+			// lightbox.option({
+			//   'resizeDuration': 200,
+			//   'wrapAround': true
+			// });
 		
 		/* END LIGHTBOX JS */
 		
