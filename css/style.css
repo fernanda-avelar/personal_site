@@ -70,6 +70,7 @@ h6{
 img{
 	max-width: 350px;
 	height: auto;
+    width: 100%;
 }
 ul{
 	padding: 0;
@@ -537,10 +538,10 @@ svg {
 }
 .about_image:before {
     content: "";
-    width: 60%;
+    width: 80%;
     height: 98%;
-    top: 13px;
-    right: 203px;
+    top: 39px;
+    right: 119px;
     position: absolute;
     border: 10px solid #1461ff;
     z-index: -1;
