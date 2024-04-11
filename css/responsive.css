@@ -98,6 +98,14 @@
 	.banner_content h1{
 		font-size: 45px !important;
 	}
+
+	.cd-words-wrapper b {
+		white-space: pre-line;
+	}
+	.bottomMarg {
+		margin-bottom: 50px;
+	
+	}
 	.about_image{
 		text-align: center;
 	}
